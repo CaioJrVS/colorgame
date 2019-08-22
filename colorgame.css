@@ -1,0 +1,28 @@
+body{
+	background-color: black;
+	margin: 0px;
+}
+p{
+	color: white;
+	margin: 0px
+}
+
+#container{
+	margin: 0px auto ;
+	width: 600px;
+}
+
+#square {
+	padding-bottom: 200px;
+	padding-right: 30%;
+	background-color: red;
+	margin: 5px;
+	float: right;
+	border-radius: 20px;
+}
+
+#layout{
+	padding: 0px;
+	background-color: #0d9cde;
+	padding: 0px auto;
+}
