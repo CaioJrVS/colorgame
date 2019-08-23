@@ -1,5 +1,5 @@
 body{
-	background-color: black;
+	background-color: #232323;
 	margin: 0px;
 }
 p{
@@ -8,15 +8,14 @@ p{
 }
 
 #container{
-	margin: 0px auto ;
-	width: 600px;
+	margin: 0 auto ;
+	max-width: 600px;
 }
 
-#square {
-	padding-bottom: 200px;
+.square {
+	padding-bottom: 30%;
 	padding-right: 30%;
-	background-color: red;
-	margin: 5px;
+	margin: 1.66%;
 	float: right;
 	border-radius: 20px;
 }
@@ -25,4 +24,5 @@ p{
 	padding: 0px;
 	background-color: #0d9cde;
 	padding: 0px auto;
+	
 }
