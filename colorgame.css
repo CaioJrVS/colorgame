@@ -1,10 +1,15 @@
 body{
 	background-color: #232323;
 	margin: 0px;
+	font-family: "Montserrat", "Avenir";
 }
-p{
+h1{
 	color: white;
-	margin: 0px
+	margin: 0;
+	text-align: center;
+	font-weight: normal;
+	padding: 20px 0;
+	text-transform: uppercase;
 }
 
 #container{
@@ -21,8 +26,19 @@ p{
 }
 
 #layout{
-	padding: 0px;
-	background-color: #0d9cde;
-	padding: 0px auto;
+	background-color: steelblue;
 	
+}
+
+#corSeleta{
+	font-size: 200%;
+}
+
+.errou{
+	padding-bottom: 30%;
+	padding-right: 30%;
+	margin: 1.66%;
+	float: right;
+	border-radius: 20px;
+	transition: background-color="purple" 2s ease-in-out 2s;
 }
