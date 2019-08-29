@@ -21,8 +21,11 @@ document.getElementById("corSeleta").innerHTML =document.getElementsByClassName(
 for (var i =0; i<quadrados.length;i++){
 	quadrados[i].addEventListener("click",function(){
 	if(this.style.backgroundColor == corSeleta.innerHTML){
-		console.log("acertou")
-	}else{console.log("Errou")}
-	
+		document.getElementById("layout").style.backgroundColor= document.getElementById("corSeleta").innerHTML;
+		document.getElementById("acertaOuErra").innerHTML ="Acertou";
+		for(var x=0;x<quadrados.length;x++){
+			quadrados[x].style.backgroundColor= document.getElementById("corSeleta").innerHTML;
+		}
+	}else{document.getElementById("acertaOuErra").innerHTML ="Errou";}
 })	
 }
