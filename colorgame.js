@@ -29,3 +29,7 @@ for (var i =0; i<quadrados.length;i++){
 	}else{document.getElementById("acertaOuErra").innerHTML ="Errou";}
 })	
 }
+
+document.getElementById("playAgain").addEventListener("click",function(){
+	document.location.reload();
+})
